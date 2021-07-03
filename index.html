@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <style>
+    .w300{
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <form id="form_test1">
+    <div id="your_name_value"></div>
+    <input type="text" name="your_name" value="あああ">氏名
+    <br>
+    <input type="email" required placeholder="メールアドレスを入力して下さい">メールアドレス
+    <br>
+    <label for="gender_male">男性</label>
+    <input id="gender_male" type="radio" name="gender">
+    <label for="gender_female">女性</label>
+    <input id="gender_female" type="radio" name="gender">
+    <br>
+    <input type="file" name="image_file">
+    <br>
+    <img src="" name='preview' class="w300">
+    <br>
+
+    <input type="submit" value="送信">
+    <br>
+  </form>
+
+  <script src="main.js"></script>
+</body>
+</html>
